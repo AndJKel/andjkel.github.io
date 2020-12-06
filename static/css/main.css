@@ -7,8 +7,8 @@ body {
   background-color: rgb(19, 19, 19);
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 21px;
-  color: rgb(29, 182, 82)
-  /* The html and body elements cannot have any padding or margin. */
+  color: rgb(226, 226, 226)
+    /* The html and body elements cannot have any padding or margin. */
 }
 @media (min-width: 768px) {
   html {
