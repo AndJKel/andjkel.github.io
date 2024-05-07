@@ -1,0 +1,141 @@
+/* Resetting default margin/padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #F5F5F5;
+  color: rgb(0, 0, 0);
+}
+
+/* Heading styles */
+h1 {
+  color: #3a3a3a;
+}
+
+h2 {
+  color: #3a3a3a;
+}
+
+h3 {
+  color: #3a3a3a;
+}
+
+h4 {
+  color: #3a3a3a;
+}
+
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+.container {
+  position: relative;
+  max-width: 775px;
+  margin: 0 auto;
+  text-align: left;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+.papers-container {
+  position: relative;
+  max-width: 775px;
+  margin: 0 auto;
+  text-align: left;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+
+/* Link Rules */
+a:link {
+  color: #3a3a3a;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #3a3a3a;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3a3a3a;
+  background-color: #dddddd;
+  text-decoration: none;
+  transition: background-color 0.2s linear;
+}
+
+a:active {
+  color: #3a3a3a;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+
+
+/* Tag Rules */
+.filter li {
+  display: inline-flex;
+  margin: 10px auto;
+  border-radius: 10px;
+  background-color: rgb(228, 228, 228);
+}
+
+.filter a {
+  background-color: transparent;
+  text-decoration: none;
+  padding: 8px 8px;
+  border-radius: 10px;
+  transition: background-color 0.5s linear;
+  text-size-adjust: flex;
+  color: #3a3a3a;
+
+}
+
+.filter a:hover {
+  background-color: #636363;
+  color: #fff;
+}
+
+.filter-papers li {
+  display: inline-flex;
+  margin: 5px auto;
+  border-radius: 10px;
+  background-color: rgb(228, 228, 228);
+}
+
+.filter-papers a {
+  background-color: transparent;
+  text-decoration: none;
+  padding: 8px 8px;
+  border-radius: 10px;
+  transition: background-color 0.5s linear;
+  text-size-adjust: flex;
+  color: #3a3a3a;
+
+}
+
+.filter-papers a:hover {
+  background-color: #636363;
+  color: #fff;
+}
+
+
+/* Image Rules */
+img {
+  border-radius: 75%;
+  position: relative;
+  float: left;
+  margin-right: 25px;
+}
